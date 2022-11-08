@@ -44,7 +44,7 @@ public class StaticAircraftData {
                             aircraft.setManufacturer(new Manufacturer(manufacturerIcao, manufacturerName));
                             break;
                         case 5:
-                            aircraft.setModel(new Model(aircraftDetails.get(i)));
+                            aircraft.setModel(new AircraftModel(aircraftDetails.get(i)));
                             break;
                         case 6:
                             aircraft.setTypeCode(aircraftDetails.get(i));
